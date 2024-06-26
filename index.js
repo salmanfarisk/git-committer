@@ -3,7 +3,7 @@ const fs = require('fs');
 
 function generateRandomDate() {
   // Generate a random date between 2010 and 2025
-  const start = new Date(2010, 0, 1); 
+  const start = new Date(2022, 0, 1); 
   const end = new Date(2025, 0, 1);
   return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
 }
